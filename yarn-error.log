@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/lib/nodejs/node-v12.14.1-linux-x64/bin/node /usr/local/lib/nodejs/node-v12.14.1-linux-x64/bin/yarn init
+
+PATH: 
+  /home/astra/Downloads/firefox:/usr/local/lib/nodejs/node-v12.14.1-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games/usr/lib/jvm/jdk1.8.0_251/bin:/usr/lib/jvm/jdk1.8.0_251/db/bin:/usr/lib/jvm/jdk1.8.0_251/jre/bin:/snap/bin:/home/astra/.composer/vendor/bin:/usr/lib/jvm/jdk1.8.0_251/bin/:/home/astra/Android/Sdk//tools:/home/astra/Android/Sdk//platform-tools:/home/astra/Android/Sdk//tools/bin:/home/astra/Android/Sdk/emulator:/home/astra/Android/Sdk/tools:/home/astra/Android/Sdk/tools/bin:/home/astra/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.14.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/nodejs/node-v12.14.1-linux-x64/lib/node_modules/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:223:5)
+      at Interface._ttyWrite (readline.js:885:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:223:5)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1151:36)
+      at ReadStream.emit (events.js:223:5)
+      at addChunk (_stream_readable.js:309:12)
+
+npm manifest: 
+  {
+    "name": "chat-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "chat",
+      "realtime"
+    ],
+    "author": "Muhamad Abiyasa Sastra Wardana",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
